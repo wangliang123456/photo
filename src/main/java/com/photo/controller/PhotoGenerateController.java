@@ -1,5 +1,6 @@
 package com.photo.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +13,10 @@ public class PhotoGenerateController {
 	public void generateIDPhoto() {
 		
 	}
-
+	
+	@GetMapping("/validate/v1")
+	public void validatePhoto() {
+		
+	}
 	
 }
